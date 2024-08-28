@@ -1,4 +1,4 @@
-package lab.patterns.gof;
+package lab.patterns.gof.singleton;
 
 public class SingletonEager {
 

@@ -1,7 +1,7 @@
 
-import lab.patterns.gof.SingletonEager;
-import lab.patterns.gof.SingletonLazy;
-import lab.patterns.gof.SingletonLazyHolder;
+import lab.patterns.gof.singleton.SingletonEager;
+import lab.patterns.gof.singleton.SingletonLazy;
+import lab.patterns.gof.singleton.SingletonLazyHolder;
 
 public class App {
     public static void main(String[] args) throws Exception {
