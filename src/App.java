@@ -1,3 +1,4 @@
+import lab.patterns.gof.facade.Facade;
 import lab.patterns.gof.singleton.SingletonEager;
 import lab.patterns.gof.singleton.SingletonLazy;
 import lab.patterns.gof.singleton.SingletonLazyHolder;
@@ -43,6 +44,10 @@ public class App {
         robot.setBehavior(attack);
         robot.move();
         robot.move();
+
+
+        Facade facade = new Facade();
+        facade.migrateCustomer("Gustavo Figueiredo", "31010220");
         
     }
 }
